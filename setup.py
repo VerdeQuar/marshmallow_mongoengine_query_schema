@@ -10,6 +10,7 @@ setup(
   license='MIT',
   description = 'Marshmallow schema for generating mongoengine filters in url query.',
   long_description = long_description,
+  long_description_content_type='text/markdown',
   author = 'Damian Komorowski',
   author_email = 'verdequar@gmail.com',
   url = 'https://github.com/VerdeQuar/marshmallow_mongoengine_query_schema',
