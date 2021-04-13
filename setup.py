@@ -1,14 +1,19 @@
 from distutils.core import setup
+
+with open('README.md') as f:
+    long_description = f.read()
+
 setup(
   name = 'marshmallow_mongoengine_query_schema',
   packages = ['marshmallow_mongoengine_query_schema'],
-  version = '0.1',
+  version = '1.2',
   license='MIT',
   description = 'Marshmallow schema for generating mongoengine filters in url query.',
+  long_description = long_description,
   author = 'Damian Komorowski',
   author_email = 'verdequar@gmail.com',
   url = 'https://github.com/VerdeQuar/marshmallow_mongoengine_query_schema',
-  download_url = 'https://github.com/VerdeQuar/marshmallow_mongoengine_query_schema/archive/refs/tags/v0.1.tar.gz',
+  download_url = 'https://github.com/VerdeQuar/marshmallow_mongoengine_query_schema/archive/refs/tags/v1.2.tar.gz',
   keywords = ['mongoengine', 'marshmallow', 'schema'],
   install_requires=[
           'marshmallow',
