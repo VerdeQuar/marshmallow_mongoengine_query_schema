@@ -169,7 +169,7 @@ class QuerySchema(Schema):
                 elif operator == "match":
                     data[k] = self.parse_dict(v)
                 else:
-                    raise ValidationError(message=self.error_messages["unknown"])
+                    data[k] = v
                 
                 new_k = '__'.join(k.split(infix))
                 v = data.pop(k)
