@@ -6,7 +6,7 @@ with open('README.md') as f:
 setup(
   name = 'marshmallow_mongoengine_query_schema',
   packages = ['marshmallow_mongoengine_query_schema'],
-  version = '1.4',
+  version = '1.3',
   license='MIT',
   description = 'Marshmallow schema for generating mongoengine filters in url query.',
   long_description = long_description,
@@ -14,7 +14,7 @@ setup(
   author = 'Damian Komorowski',
   author_email = 'verdequar@gmail.com',
   url = 'https://github.com/VerdeQuar/marshmallow_mongoengine_query_schema',
-  download_url = 'https://github.com/VerdeQuar/marshmallow_mongoengine_query_schema/archive/refs/tags/v1.4.tar.gz',
+  download_url = 'https://github.com/VerdeQuar/marshmallow_mongoengine_query_schema/archive/refs/tags/v1.3.tar.gz',
   keywords = ['mongoengine', 'marshmallow', 'schema'],
   install_requires=[
           'marshmallow',
